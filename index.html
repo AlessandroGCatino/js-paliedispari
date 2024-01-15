@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jSnack 2 - Ciclo While</title>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css' integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==' crossorigin='anonymous'/>
+    <!-- Palidroma
+    Chiedere all’utente di inserire una parola
+    Creare una funzione per capire se la parola inserita è palindroma
+
+    Pari e Dispari
+    L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
+    Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+    Sommiamo i due numeri
+    Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+    Dichiariamo chi ha vinto. -->
+
+</head>
+<body>
+    <div>
+        <h1 class="text-center">Palindromo</h1>
+        <input id="palindrome" class="col-3 mx-auto d-block" type="text" placeholder="Inserisci qui la parola da testare">
+        <button id="primo" class="btn btn-primary mx-auto my-3 d-block">Prova</button>
+        <p id="risultato1" class="text-center"></p>
+    </div>
+    <div>
+        <h1 class="text-center">Pari e Dispari</h1>
+        <div class="d-flex justify-content-center gap-3">
+            <select name="userSelection" id="userSel">
+                <option value="pari">Pari</option>
+                <option value="dispari">Dispari</option>
+              </select>
+            <input class="col-3 d-block" type="number" placeholder="Inserisci un numero da 1 a 5">
+        </div>
+        <button id="secondo" class="btn btn-primary mx-auto my-3 d-block">Prova</button>
+        <p id="risultato2" class="text-center"></p>
+    </div>
+        
+    <script src="./main.js"></script>
+    
+</body>
+</html>
